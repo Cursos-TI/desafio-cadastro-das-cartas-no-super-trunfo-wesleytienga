@@ -7,6 +7,7 @@
 //Teste larissa
 
 int main() {
+      printf("Desafio de super trunfo");
       
       char estado[30];
       char codigo[5];  //ex. A01, A02....
@@ -36,6 +37,8 @@ int main() {
 
         printf("Pontos_Turisticos: \n");
         scanf("%d", &pontos_turisticos);
+
+
 
 
 
