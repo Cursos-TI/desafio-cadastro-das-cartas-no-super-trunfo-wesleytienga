@@ -7,8 +7,8 @@
 //Teste larissa
 
 int main() {
-      printf("Desafio de super trunfo");
-      
+      printf("Desafio de super trunfo\n");
+
       char estado[30];
       char codigo[5];  //ex. A01, A02....
       char cidade[20];
@@ -40,10 +40,21 @@ int main() {
 
 
 
+        printf("carta1! \n");
+        printf("estado: \n");
+        scanf("%S", estado );
+        printf("codigo: \n");
+        scanf("%s", codigo);
+
+
+
+
+
+
 
 
       
-      
+    
 
     
     
