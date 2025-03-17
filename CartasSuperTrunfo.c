@@ -11,7 +11,7 @@ int main() {
 
       char estado[30];
       char codigo[5];  //ex. A01, A02....
-      char cidade[20];
+      char cidade[30];
        int populacao;
       float area;
       float pib;
