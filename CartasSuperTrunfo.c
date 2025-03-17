@@ -50,13 +50,12 @@ int main() {
 
 
 
-
-
         printf("carta2 \n");
         printf("estado: \n");
         scanf("%S", estado);
         printf("codigo: \n");
         scanf("%S", codigo);
+        printf("cidade: \n");
 
 
 
