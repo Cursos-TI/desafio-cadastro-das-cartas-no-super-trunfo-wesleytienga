@@ -12,7 +12,7 @@ int main() {
       char estado[30];
       char codigo[5];  //ex. A01, A02....
       char cidade[20];
-      int populacao;
+       int populacao;
       float area;
       float pib;
       char pontos_turisticos;    
@@ -42,9 +42,22 @@ int main() {
 
         printf("carta1! \n");
         printf("estado: \n");
-        scanf("%S", estado );
+        scanf("%s", estado );
         printf("codigo: \n");
         scanf("%s", codigo);
+        printf("cidade: \n");
+        scanf("%s", cidade);
+
+
+
+
+
+        printf("carta2 \n");
+        printf("estado: \n");
+        scanf("%S", estado);
+        printf("codigo: \n");
+        scanf("%S", codigo);
+
 
 
 
