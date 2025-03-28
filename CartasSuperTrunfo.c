@@ -42,7 +42,6 @@ int main() {
 
 
 
-
       
         printf("Carta 2 \n");
         printf("Digite o Estado: ");
