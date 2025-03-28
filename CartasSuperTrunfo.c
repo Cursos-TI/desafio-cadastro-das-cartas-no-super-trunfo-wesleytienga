@@ -12,56 +12,58 @@ int main() {
       char estado[30];
       char codigo[5];  //ex. A01, A02....
       char cidade[50];
-       int populacao;
+      int populacao;
       float area;
       float pib;
       char pontos_turisticos; 
 
       
-        printf("carta 1:\n");
-        printf("digite seu estado:\n");
+        printf("Carta 1:\n");
+        printf("Digite Seu Estado: ");
         scanf("%s", &estado);
 
-        printf("codigo: \n");
+        printf("Codigo: ");
         scanf("%s", &codigo);
 
-        printf("Nome Da Cidade: \n");
+        printf("Nome Da Cidade: ");
         scanf("%s", &cidade);
 
-        printf("populaçao: \n");
+        printf("Populaçao: ");
         scanf("%f", &populacao);
 
-        printf("Area: \n");
+        printf("Area: ");
         scanf("%f", &area);
 
-        printf("Pib: \n");
+        printf("Pib: ");
         scanf("%f", &pib);
 
-        printf("Pontos_Turisticos: \n");
+        printf("Pontos_Turisticos: ");
         scanf("%d", &pontos_turisticos);
 
 
+
+
       
-        printf("carta 2 \n");
-        printf("digite o estado: \n");
+        printf("Carta 2 \n");
+        printf("Digite o Estado: ");
         scanf("%s", &estado );
 
-        printf("codigo: \n");
+        printf("Codigo: ");
         scanf("%s", &codigo);
 
-        printf("cidade: \n");
+        printf("Nome Da Cidade: ");
         scanf("%s", &cidade);
 
-        printf("população: \n");
+        printf("população: ");
         scanf("%d",&populacao);
 
-        printf("Area: \n");
+        printf("Area: ");
         scanf("%f", &area);
 
-        printf("PIB: \n");
+        printf("PIB: ");
         scanf("%f", &pib);
 
-        printf("pontos_turisticos: \n");
+        printf("pontos_turisticos: ");
         scanf("%f", &pontos_turisticos);
     
 
